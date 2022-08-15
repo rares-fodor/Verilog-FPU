@@ -59,7 +59,7 @@ module sqrt #(
             // this new value and shift two bits of the radicand into it
             // otherwise skip
             l_r_verif = l_r_acc - {l_r_root, 2'b01};
-            if (l_r_verif[WIDTH-1] == 0) begin
+            if (l_r_verif[WIDTH+1] == 0) begin
                 l_r_acc_next = {l_r_verif[WIDTH-1:0], l_r_rad[WIDTH-1:WIDTH-2]};
                 l_r_root_next = {l_r_root[WIDTH-2:0], 1'b1};
             end else begin
