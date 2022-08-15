@@ -2,7 +2,7 @@ Am ales sa implementez impartirea si radicalul in floating point. Desi nu am ale
 am folosit dimensiunle precizate in standard pentru segmentele numerelor. 
 
 
-##Floating Point Division
+## Floating Point Division
 
 
 Arhitectura contine doua module: unul care extrage segmentele din operanzi si prelucreaza
@@ -21,7 +21,7 @@ Daca rezultatul impartirii incepe cu 0, se efectueaza o shiftare la stanga si se
 In final se indeparteaza hidden bit-ul si se concateneaza segmentele, formand rezultatul final.
 
 
-##Floating Point Square Root
+## Floating Point Square Root
 
 
 Arhitectura este asemanatoare celei pentru impartire. 
@@ -29,7 +29,7 @@ Arhitectura este asemanatoare celei pentru impartire.
 Pentru celelalte valori testate pare sa functioneze in regula.)
 
 
-##Precizari
+## Precizari
 
 
 Valorile default ale parametrilor sunt setate pentru half precision/16bit.
